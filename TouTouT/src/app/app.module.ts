@@ -9,6 +9,7 @@ import { NavBarComponent } from './home/nav-bar/nav-bar.component';
 import { Layer1Component } from './home/user-input-move-out-info-component/layer1/layer1.component';
 import { Layer2Component } from './home/user-input-move-out-info-component/layer2/layer2.component';
 import { Layer3Component } from './home/user-input-move-out-info-component/layer3/layer3.component';
+import { FooterComponent } from './home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Layer3Component } from './home/user-input-move-out-info-component/layer
     NavBarComponent,
     Layer1Component,
     Layer2Component,
-    Layer3Component
+    Layer3Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
